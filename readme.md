@@ -13,11 +13,12 @@ npm install element-box
 
 ## Why
 
-I work with elements' dimension and position rarely enough to forget the details but often enough to frustrate me that it takes away my flow/productivity.
+I work with the dimensions and positions of elements rarely enough to forget the details, but often enough to frustrate me when it hampers my flow and productivity.
 
-It's hard to recall what the difference between `clientWidth` and `offsetWidth` and does `element.getBoundingClientRect()` include the borders or not.
+What was the difference between `clientWidth` and `offsetWidth`? Did `element.getBoundingClientRect
+()` include the borders or not?
 
-This library provides a friendly API that let's you think about the topic more easily while adding functions that are otherwise hard to 
+This library provides a friendly API that lets you think about the topic more easily while adding functions that are otherwise hard to 
 
 ## API
 
