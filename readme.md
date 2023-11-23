@@ -22,27 +22,27 @@ This library provides a friendly API that let's you think about the topic more e
 
 ## API
 
-### `getContentBox(element: HTMLElement): DOMRect`
+#### `getContentBox(element: HTMLElement): DOMRect`
 
 Element's dimensions without border, padding, and margin — `element.getBoundingClientRect() - border - padding`.
 
-### `getPaddingBox(element: HTMLElement): DOMRect`
+#### `getPaddingBox(element: HTMLElement): DOMRect`
 
 Element's dimensions with padding but without border and margin — `element.getBoundingClientRect() - border`.
 
-### `getBorderBox(element: HTMLElement): DOMRect`
+#### `getBorderBox(element: HTMLElement): DOMRect`
 
 Equivalent to `element.getBoundingClientRect()`.
 
-### `getMarginBox(element: HTMLElement): DOMRect`
+#### `getMarginBox(element: HTMLElement): DOMRect`
 
 Element's dimensions with padding, border, and margin — `element.getBoundingClientRect() + margin`.
 
-### `getWindowBox(): DOMRect`
+#### `getWindowBox(): DOMRect`
 
 Something like `window.getBoundingClientRect()` if it existed. If you are wondering, `document.documentElement.getBoundingClientRect()` won't probably do what you want.
 
-### `getElementBox(element: HTMLElement, options): DOMRect`
+#### `getElementBox(element: HTMLElement, options): DOMRect`
 
 Would be easier to show you examples:
 ```ts
