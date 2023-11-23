@@ -18,7 +18,7 @@ I work with the dimensions and positions of elements rarely enough to forget the
 What was the difference between `clientWidth` and `offsetWidth`? Did `element.getBoundingClientRect
 ()` include the borders or not?
 
-This library provides a friendly API that lets you think about the topic more easily while adding functions that are otherwise hard to 
+This library provides a friendly API that lets you think about the topic more easily while adding functions that are otherwise hard to write on your own.
 
 ## API
 
