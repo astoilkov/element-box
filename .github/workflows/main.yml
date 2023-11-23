@@ -13,7 +13,7 @@ jobs:
                 # https://nodejs.dev/en/about/releases/
                 node-version:
                     - 18
-                    - 19
+                    - 20
         steps:
             - uses: actions/checkout@v3
             - uses: actions/setup-node@v3
