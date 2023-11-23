@@ -3,8 +3,7 @@
 > Work with elements dimension and position more easily
 
 [![Gzipped Size](https://img.shields.io/bundlephobia/minzip/element-box)](https://bundlephobia.com/result?p=element-box)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/astoilkov/element-box/main.
-yml?branch=main)](https://github.com/astoilkov/element-box/actions/workflows/main.yml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/astoilkov/element-box/main.yml?branch=main)](https://github.com/astoilkov/element-box/actions/workflows/main.yml)
 
 ## Install
 
