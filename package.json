@@ -1,6 +1,6 @@
 {
     "name": "element-box",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Work easily with an element's position and dimensions",
     "license": "MIT",
     "repository": "astoilkov/element-box",
