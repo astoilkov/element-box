@@ -13,12 +13,12 @@ npm install element-box
 
 ## Why
 
-I work with the dimensions and positions of elements rarely enough to forget the details, but often enough to frustrate me when it hampers my flow and productivity.
+I work with the dimensions and positions of elements rarely enough to forget the details, but often enough to frustrate me when it hampers my flow and productivity:
+- Did `element.getBoundingClientRect()` include the borders or not?
+- What was the difference between `clientWidth` and `offsetWidth`?
+- How do I get the window dimensions? Should I use `document.documentElement` for that, or not?
 
-What was the difference between `clientWidth` and `offsetWidth`? Did `element.getBoundingClientRect
-()` include the borders or not?
-
-This library provides a friendly API that lets you think about the topic more easily while adding functions that are otherwise hard to write on your own.
+This library is both an abstraction and a thinking model for DOM dimensions and position. It adds functions that are otherwise time-consuming to write on your own.
 
 ## API
 
